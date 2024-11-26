@@ -2,11 +2,20 @@
 <html>
 <head>
   <title>YouTube Feed Reset</title>
+  <link rel="stylesheet" href="popup.css">
 </head>
 <body>
-  <h3>Reset YouTube Feed</h3>
+  <!--<h3>Reset YouTube Feed</h3>
   <input type="text" id="keywords" placeholder="Enter keywords" />
-  <button id="resetBtn">Reset</button>
+  <button id="resetBtn">Reset</button>-->
+  <div class="main-page">
+    <ul>
+      <li><input type="checkbox" class="parent-checkbox" id="home-feed-optimiser">Optimize Home Feed</li>
+      <li><input type="checkbox" class="parent-checkbox" id="side-panel-optimiser">Optimize Side Panel</li>
+      <li><input type="checkbox" class="parent-checkbox" id="video-page-optimiser">Optimize Video Side Bar</li>
+    </ul>
+    <button type="button" id="btn">Click Me</button>
+    </div>
 
   <script src="popup.js"></script>
 </body>

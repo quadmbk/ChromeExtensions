@@ -16,5 +16,11 @@ Implementation
 --------------
 Phase1
 ~~~~~~
-  1. Create a button which when enabled, hides all the videos in the user homefeed
-  2. Only show a video(static url), later it will be list of videos fetched by the youtube API
+  1. Create a button which when enabled, hides all the videos in the user homefeed - Done
+  2. Only show a video(static url), later it will be list of videos fetched by the youtube API - Done
+  3. Add checkboxes to disable different sections of youtube
+
+Phase2
+~~~~~~
+	1. Use APIs to fetch youtube videos matching a keyword
+	
